@@ -2,7 +2,7 @@
 
 Intro:
 
-In this project, the goal was predict whether or no a punter in the NFL will make the Pro Bowl for that season. The focus on punters was in the NFL because they have the most influence on how the rest of the game is going to play out. A Punter can dramatically change the game plan for the opposing team. If he punts the ball within 20 yards from the end zone (Red Zone) it will limit the types of plays that the offense will run, giving the defense an advantage. There are other multiple statistics that could determine what makes a Pro Bowl punter. The data suggests that best way to predict this would be through Decision Trees because they are a very powerful machine learning model. Bagged Decision Trees and Random Forests were also used to offset the overfitting. During the this project the part that took the most time was the data cleaning.
+In this project, the goal was predict whether or not a punter in the NFL will make the Pro Bowl for that season. The focus on punters was  because they have the most influence on how the rest of the game is going to play out. A Punter can dramatically change the game plan for the opposing team. If he punts the ball within 20 yards from the end zone (Red Zone) it will limit the types of plays that the offense will run, giving the defense an advantage. There are other multiple statistics that could determine what makes a Pro Bowl punter. The data suggests that best way to predict this would be through Decision Trees because they are a very powerful machine learning model. Bagged Decision Trees and Random Forests were also used to offset the overfitting. During the this project the part that took the most time was the data cleaning.
 
 
 Data Acquisition:
@@ -16,8 +16,8 @@ After the data cleaning was done, it was time do the same process for another da
 
 Operationalized Outcome Variable:
 
-	The target variable was if the punter made a Pro Bowl or not. The target variable Pro Bowls because this is the goal of the project to classify/ predict whether or not a punter will make the Pro Bowl. 
-	Features that were omitted were the objects (Player Name, Team Name), the target variable (Pro Bowl), and a couple features that were not particularly relevant using subjective domain knowledge (Punts Returned,  Punt Return Yards). 
+The target variable was if the punter made a Pro Bowl or not. The target variable Pro Bowls because this is the goal of the project to classify/ predict whether or not a punter will make the Pro Bowl. 
+Features that were omitted were the objects (Player Name, Team Name), the target variable (Pro Bowl), and a couple features that were not particularly relevant using subjective domain knowledge (Punts Returned,  Punt Return Yards). 
 
 Model,  Hyperparameters, and Metrics:
 
@@ -27,7 +27,7 @@ When there was no adjustment of the hyperparameters the models were severely ove
 Future Deployments:
 
 
-	A few tweaks that would be interesting to add would be adding the feature of the punters hang time. THis would be an interesting feature because the amount of hang time may correlate with the number of fair catches. It would be interesting to see if that as an added feature would make a difference to whether or not a punter would make the Pro Bowl.
+A few tweaks that would be interesting to add would be adding the feature of the punters hang time. THis would be an interesting feature because the amount of hang time may correlate with the number of fair catches. It would be interesting to see if that as an added feature would make a difference to whether or not a punter would make the Pro Bowl.
 
 
 Data Sources:
